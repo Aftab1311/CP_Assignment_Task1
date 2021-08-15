@@ -1,3 +1,9 @@
+// Task 1
+// Name: Aftab Ahmed
+
+/* AIM: Take three numbers input from keyboard and print their values in descending order. 
+(Like variable a, b and c has values 7, 10 and 5 then values will be printed in order 10, 7, 5). */
+
 #include <iostream>
 using namespace std;
 
@@ -12,43 +18,34 @@ int main()
    else 
       lar1 = c;
 
-   if (lar1 == a)
-   {
-      if (b > c)
-      {
+   if (lar1 == a){
+      if (b > c){
          lar2 = b;
          lar3 = c;
       }
-      else
-      {
+      else{
          lar2 = c;
          lar3 = b;
       }
    }
 
-   else
-   {
+   else{
       if (lar1 == b)
-         if (a > c)
-         {
+         if (a > c){
             lar2 = a;
             lar3 = c;
          }
-         else
-         {
+         else{
             lar2 = c;
             lar3 = a;
          }
 
-      else
-      {
-         if (a > b)
-         {
+      else{
+         if (a > b){
             lar2 = a;
             lar3 = b;
          }
-         else
-         {
+         else{
             lar2 = b;
             lar3 = a;
          }
