@@ -15,7 +15,7 @@ int main()
    lar1 = a;
    if (b > lar1 && b>c)
       lar1 = b;
-   else 
+   else if(b>lar1 && c>b) 
       lar1 = c;
 
    if (lar1 == a){
